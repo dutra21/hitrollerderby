@@ -671,11 +671,11 @@ footer .redesSociais .site a {
   font-weight: 900;
 }
 /*RESPONSIVO*/
-@media (max-width: 1366px) {
+@media (max-width: 1440px) {
   #banner {
     -webkit-background-size: cover;
     background-size: cover;
-    height: 717px;
+    height: 755px;
   }
   #banner .conteudo {
     padding-top: 4%;
@@ -684,14 +684,68 @@ footer .redesSociais .site a {
     bottom: 2%;
   }
   .info img {
-    width: 60%;
+    width: 67%;
     margin-left: 15%;
   }
-  #sobre .cards {
-    padding-left: 9%;
+  .bordaTitulo {
+    top: 20%;
+    left: 10%;
   }
   #cronograma .triangulos {
     left: 3%;
+  }
+  #inscrevase #inscricao {
+    margin-left: 4%;
+  }
+  #inscrevase .form {
+    width: 100%;
+  }
+  #inscrevase input {
+    width: 100%;
+  }
+  #inscrevase .estado {
+    width: 30%;
+  }
+  #inscrevase .cidade {
+    width: 65%;
+  }
+  #inscrevase .infoInscricao {
+    margin-left: 3%;
+  }
+  #inscrevase .botoes button {
+    width: 45%;
+  }
+  #quemSomos .ladies {
+    width: 100%;
+    padding-left: 18%;
+  }
+  #quemSomos .ladies .textoLadies {
+    width: 60%;
+  }
+  #local .bordaTitulo {
+    left: 12%;
+    top: 12%;
+  }
+  #local .mega {
+    padding-left: 15%;
+  }
+  #local .textoMega {
+    width: 30%;
+  }
+  #local .textoMapa {
+    bottom: 6%;
+    left: 49%;
+  }
+}
+@media (max-width: 1366px) {
+  #banner {
+    height: 717px;
+  }
+  .info img {
+    width: 60%;
+  }
+  #sobre .cards {
+    padding-left: 9%;
   }
   #inscrevase #inscricao {
     margin-left: 0;
@@ -705,20 +759,17 @@ footer .redesSociais .site a {
   #quemSomos .bordaTitulo {
     top: 40%;
   }
-  #local .bordaTitulo {
-    top: 12%;
-  }
   #local .textoMega {
     margin: 0 3% 0 2%;
     width: 29%;
   }
-  #local .textoMapa {
-    bottom: 6%;
-    left: 49%;
+}
+@media (max-width: 1280px) {
+  #banner {
+    height: 717px;
   }
-  .bordaTitulo {
-    top: 20%;
-    left: 10%;
+  .info .botoes {
+    margin-top: 5%;
   }
 }
 @media (max-width: 768px) {
@@ -988,10 +1039,15 @@ footer .redesSociais .site a {
     margin-left: 1%;
   }
   #banner {
-    height: 345px;
+    height: 274px;
+  }
+  #banner .conteudo {
+    padding-top: 5%;
   }
   #banner .conteudo .apresenta {
-    margin-left: 7%;
+    margin-left: 17%;
+    font-size: 0.8em;
+    letter-spacing: 3.3px;
   }
   #banner .info img {
     width: 30%;
@@ -1000,25 +1056,29 @@ footer .redesSociais .site a {
   }
   #banner .info .bannerTitulo,
   #banner .info .bannerLocal {
-    letter-spacing: 4.4px;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
   }
   #banner .info .bannerData {
+    font-size: 1.2em;
     letter-spacing: 2.5px;
-    width: 40%;
-    margin-left: 32%;
+    width: 45%;
+    margin-left: 29%;
+    margin-bottom: 2px;
   }
   #banner .info .botoes {
-    margin-top: 3%;
+    margin-top: 4%;
   }
   #banner .info .botoes a {
     font-size: 1.3em;
     padding: 5px 5px;
   }
   .fotografos {
-    left: 1%;
+    left: 0;
   }
   .fotografos p {
     letter-spacing: initial;
+    font-size: 0.7em;
   }
   #sobre .cards {
     flex-direction: column;
@@ -1071,11 +1131,22 @@ footer .redesSociais .site a {
   #inscrevase input {
     width: 100%;
   }
+  #inscrevase .estado {
+    width: 25%;
+  }
   #inscrevase .cidade {
     width: 70%;
   }
   #inscrevase .botoes button {
     width: 48%;
+    font-size: 16px;
+  }
+  #inscrevase .botoes button img {
+    margin-right: 5px;
+    width: 20px;
+  }
+  #inscrevase .aceitaTermo {
+    font-size: 16px;
   }
   #inscrevase .infoInscricao {
     width: 100%;
@@ -1110,6 +1181,7 @@ footer .redesSociais .site a {
   }
   #local .textoMapa p {
     letter-spacing: 1.7px;
+    font-size: 20px;
   }
   #local .textoMapa p span {
     line-height: initial;

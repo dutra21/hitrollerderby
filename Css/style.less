@@ -825,13 +825,11 @@ footer{
 
 /*RESPONSIVO*/
 
-
-@media (max-width: 1366px){
-
+@media (max-width: 1440px){
     #banner{
         -webkit-background-size: cover;
         background-size: cover;
-        height: 717px;
+        height: 755px;
 
         .conteudo{
             padding-top: 4%;
@@ -841,20 +839,100 @@ footer{
             }
         }
     }
+
     .info img{
-        width: 60%;
+        width: 67%;
         margin-left: 15%;
     }
 
-    #sobre{
-        .cards{
-            padding-left: 9%;
-        }
+    .bordaTitulo{
+        top: 20%;
+        left: 10%;
     }
 
     #cronograma{
         .triangulos{
             left: 3%;
+        }
+    }
+
+    #inscrevase{
+
+        #inscricao{
+            margin-left: 4%;
+        }
+    
+        .form{
+            width: 100%;
+        }
+
+        input{
+            width: 100%;
+        }
+
+        .estado{
+            width: 30%;
+        } 
+
+        .cidade{
+            width: 65%;
+        }
+
+        .infoInscricao{
+            margin-left: 3%;
+        }
+
+        .botoes button{
+            width: 45%;
+        }
+    }
+
+    #quemSomos{
+        .ladies{
+            width: 100%;
+            padding-left: 18%;
+
+            .textoLadies{
+                width: 60%;
+            }
+        }
+    }
+
+    #local{
+
+        .bordaTitulo{
+            left: 12%;
+            top: 12%;
+        }
+
+        .mega{
+           padding-left: 15%; 
+        }
+
+        .textoMega{
+            width: 30%;
+        }
+
+        .textoMapa{
+            bottom: 6%;
+            left: 49%;
+        }
+    }
+}
+
+@media (max-width: 1366px){
+
+    #banner{
+        height: 717px;
+    }
+
+    .info img{
+        width: 60%;
+    }
+
+    #sobre{
+        .cards{
+            padding-left: 9%;
         }
     }
     
@@ -881,27 +959,22 @@ footer{
 
     #local{
 
-        .bordaTitulo{
-            top: 12%;
-        }
-
         .textoMega{
             margin: 0 3% 0 2%;
             width: 29%;
         }
-
-        .textoMapa{
-            bottom: 6%;
-            left: 49%;
-        }
-    }
-
-    .bordaTitulo{
-        top: 20%;
-        left: 10%;
     }
 }
 
+@media (max-width: 1280px){
+    #banner{
+        height: 717px;
+    }
+
+    .info .botoes{
+        margin-top: 5%;
+    }
+}
 
 @media (max-width: 768px){
 
@@ -1235,10 +1308,16 @@ footer{
     }
 
     #banner{
-        height: 345px;
+        height: 274px;
+
+        .conteudo{
+            padding-top: 5%;
+        }
 
         .conteudo .apresenta{
-            margin-left: 7%;
+            margin-left: 17%;
+            font-size: 0.8em;
+            letter-spacing: 3.3px;
         }
 
         .info img{
@@ -1249,17 +1328,20 @@ footer{
 
         .info .bannerTitulo, 
         .info .bannerLocal{
-            letter-spacing: 4.4px;
+            letter-spacing: 3px;
+            margin-bottom: 2px;
         }
 
         .info .bannerData{
+            font-size: 1.2em;
             letter-spacing: 2.5px;
-            width: 40%;
-            margin-left: 32%;
+            width: 45%;
+            margin-left: 29%;
+            margin-bottom: 2px;
         }
 
         .info .botoes{
-            margin-top: 3%;
+            margin-top: 4%;
 
             a{
                 font-size: 1.3em;
@@ -1269,10 +1351,11 @@ footer{
     }
 
     .fotografos{
-        left: 1%;
+        left: 0;
 
         p{
             letter-spacing: initial;
+            font-size: 0.7em;
         }
     }
 
@@ -1346,12 +1429,26 @@ footer{
             width: 100%;
         }
 
+        .estado{
+            width: 25%;
+        }
+
         .cidade{
             width: 70%;
         }
 
         .botoes button{
             width: 48%;
+            font-size: 16px;
+
+            img{
+                margin-right: 5px;
+                width: 20px;
+            }
+        }
+
+        .aceitaTermo{
+            font-size: 16px;
         }
 
         .infoInscricao{
@@ -1398,6 +1495,7 @@ footer{
 
             p{
                 letter-spacing: 1.7px;
+                font-size: 20px;
 
                 span{
                     line-height: initial;
